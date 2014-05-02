@@ -1,8 +1,14 @@
 package com.trontria.app.handler;
 
 public class HandlerThread extends Thread {
+	private Handler handler;
 	public HandlerThread(Handler handler) {
 		super(new Looper(handler));
+		this.handler = handler;
+	}
+	
+	public Handler getHandler() {
+		return handler;
 	}
 	
 	private static class Looper implements Runnable {

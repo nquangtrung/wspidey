@@ -12,9 +12,9 @@ import com.trontria.wspidey.crawler.SpideyCrawler;
 public class Spidey {
 	public static void main(String[] args) {
 		// TODO run spidey here
-//		testCrawler();
+		testCrawler();
 //		testHandler();
-		testConsole();
+//		testConsole();
 	}
 	
 	static void testCrawler() {
